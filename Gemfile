@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo| 'https://github.com/#{repo}.git' }
 
-ruby '2.6.6'
+ruby '2.6.8'
 
 gem 'rails', '~> 5.1'
 gem 'kaminari', '~> 1.2.1'
@@ -44,7 +44,7 @@ gem 'text', '~> 1.2.3'
 gem 'canonical-rails', '~> 0.2.6'
 gem 'passenger', '>= 5.0.25', require: 'phusion_passenger/rack_handler'
 gem 'elasticsearch-model'
-gem 'patron', '~> 0.13.3'
+gem 'patron'
 gem 'devise', '~> 4.7.1'
 gem 'uglifier', '~> 4.2.0'
 gem 'coffee-rails', '~> 5.0.0'
